@@ -1,0 +1,147 @@
+
+
+@media only screen and (max-device-width: 480px) 
+{
+  .nav{
+        display: flex;
+        flex-direction: column;
+        /* align-items:left; */
+    }
+.mainPage{
+    display: flex;
+    flex-direction: column;
+    /* align-items:left; */                
+}
+}
+@media only screen and (max-device-width: 1400px) 
+{
+   .nav {
+        display: flex;
+        flex-direction: column;
+        /* align-items:left; */
+    }
+.mainPage{
+    display: flex;
+    flex-direction: column;
+    /* align-items:left; */
+}
+
+}
+body{
+    background-color: khaki;
+}
+/* .outercontainer{
+    margin: ; */
+/* } */
+.head{
+background-color: chartreuse;
+margin: 10px;
+padding:10px;
+border: 1px solid black;
+overflow: auto;
+}
+#myLogo{
+     float: left;
+    width: 100px;
+    height: 100px;
+display: inline-block;
+}
+.head h1{
+    position: relative;
+    top: 18px;
+    left: 10px;
+text-align: center;
+display: inline-block;
+}
+
+.nav{
+    background-color: darkgrey;
+    margin: 20px;
+    margin: 2px;
+    padding: 20px;
+}
+.nav a{
+
+    text-decoration: none;
+    float: right;
+    margin-top: -55px;
+    margin-right: -20px;
+    padding: 50px;
+
+}
+a:hover{
+    color: chocolate;
+}
+
+.mainPage{
+    width:auto;
+    height:auto;
+border: 2px solid black;
+    display: flex;
+
+    background-color:chartreuse;
+    position:relative;
+    margin: 10px;
+    padding: 20px;
+}
+.subdiv1{
+    width: auto;
+    height: auto;
+    background-color:khaki;
+    border: 2px solid black;
+    margin-bottom: 2px;
+    /* position: relative; */
+    margin: 10px;
+    padding: 20px;
+    
+}
+
+/* .subdiv2{
+    width: 50%;
+    height: 100px;
+    background-color:khaki;
+    border: 2px solid black;
+    margin-bottom: 2px;
+    /* position: absolute; */
+    /* margin: 30px;
+    padding: 40px;
+}
+.subdiv3{
+    width: 50%;
+    height: 100px;
+    background-color:khaki;
+    border: 2px solid black;
+    margin-bottom: 2px;
+    /* position: absolute; */
+    /* margin: 30px;
+    padding: 40px;
+}
+.subdiv4{
+    width: 50%;
+    height:auto;
+    background-color:khaki;
+     border: 2px solid black; 
+    margin: 30px;
+    padding: 40px; */
+    /* margin-bottom: 2px;
+    margin-top: -75; */
+    /* top: 10px;
+    left:20px ;
+    right: 50px;
+    position: absolute;
+    z-index: 9; */
+    .form
+    {
+        height:300px;
+        width:400px;
+    
+    
+    }
+ .inputType{
+     margin: 10px;
+
+} 
+@media screen and (min-width: 480px) {
+    #leftsidebar {width: 200px; float: left;}
+    #main {margin-left: 216px;}
+  }
